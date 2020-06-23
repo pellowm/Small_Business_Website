@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="/css/visit.css" type="text/css">
+
+<h3> Visit us at one of our 7 locations across Pittsburgh </h3>
+                
+<div id="locationDiv">
+    <div id="showAllDiv">
+        <button id="showAllButton" onclick="changeMap(0)">Show All Locations</button>
+    </div>
+    <div id="locationListDiv"> 
+        <ol>
+            <li>
+                Mt. Lebanon
+                <div class="address">427 Washington Rd<br>Pittsburgh, PA 15228</div>
+                <button onclick="changeMap(1)">Show Map</button>
+            </li>
+            <li>
+                South Side
+                <div class="address">60 S 21st St<br>Pittsburgh, PA 15203</div>
+                <button onclick="changeMap(2)">Show Map</button>
+            </li>
+            <li>
+                Oakland
+                <div class="address">3703 Forbes Ave<br>Pittsburgh, PA 15213</div>
+                <button onclick="changeMap(3)">Show Map</button>
+            </li>
+            <li>
+                Squirrel Hill
+                <div class="address">1711 Murray Ave<br>Pittsburgh, PA 15217</div>
+                <button onclick="changeMap(4)">Show Map </button>
+            </li>
+            <li>
+                Shady Side
+                <div class="address">5527 Walnut St<br>Pittsburgh, PA 15232</div>
+                <button onclick="changeMap(5)">Show Map</button>
+            </li>
+            <li>
+                Millvale
+                <div class="address">232 North Ave<br>Pittsburgh, PA 15209</div>
+                <button onclick="changeMap(6)">Show Map</button>
+            </li>
+            <li>
+                Strip District
+                <div class="address">60 21st St<br>Pittsburgh, PA 15222</div>
+                <button onclick="changeMap(7)">Show Map</button>
+            </li>
+        </ol> 
+    </div>
+</div>
+<div id="mapDiv">
+    <img id="mapImg" src="/images/maps/mapAll.jpg">
+</div>
+
+<div class="citations">
+    <a href="https://www.google.com/maps/">Map data: Google</a>
+</div>
+
+<script src="/js/visit.js"></script>

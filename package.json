@@ -1,0 +1,14 @@
+{
+  "name": "FinalProject",
+  "version": "1.0.0",
+  "description": "Megan's Christmas Bakery Web Page",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Megan Pellow",
+  "license": "None",
+  "dependencies": {
+    "express": "^4.13.2"
+  }
+}

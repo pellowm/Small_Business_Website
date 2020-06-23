@@ -1,0 +1,21 @@
+#homeDiv {
+    width: 50%;
+    text-align: center;
+}
+
+#carouselImage {
+    width: 100%;
+}
+
+#quote {
+    font-style: italic;   
+}
+
+.dots {
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.citations {
+    margin-top: 25px;
+}

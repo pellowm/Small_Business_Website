@@ -1,0 +1,43 @@
+#locationDiv{
+
+    display:inline-block; 
+    height: 400px;
+    width: 300px;
+}
+
+#showAllDiv{
+    height: 50px;
+    text-align: center;
+}
+
+#locationListDiv{
+    height: 350px; 
+    width: 300px; 
+    overflow: scroll;
+    border: 1px solid lightgrey;
+}
+
+ol {
+    font-size: 24px;
+}
+
+.address {
+    font-size:18px;
+}
+
+button {
+    font-size: 18px;
+}
+
+#mapDiv {
+    display:inline-block;
+}
+
+#mapImg {
+    height: 400px;
+}
+
+.citations {
+    margin-top: 25px;
+}
+
